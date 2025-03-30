@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  background-color: #f4f7fa;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  /* Container for the whole app */
+  .app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 20px;
+  }
+  
+  /* Heading */
+  .app-header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #4a90e2;
+  margin-bottom: 20px;
+  }
+  
+  /* Form Box */
+  .form-container {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+  }
+  
+  /* Form Fields */
+  .input-field, .dropdown {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus, .dropdown:focus {
+  border-color: #4a90e2;
+  }
+  
+  /* Button Styling */
+  .submit-button {
+  width: 100%;
+  padding: 12px;
+  background: #4a90e2;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+  background-color: #357ab7;
+  }
+  
+  /* Message Styling */
+  .message {
+  color: #2e8b57;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  }
+  
+  /* Student List Container */
+  .list-container {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  }
+  
+  /* Student Item */
+  .student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .student-item:hover {
+  background: #f1f1f1;
+  }
+  
+  .delete-button {
+  background: #e94e77;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+  background: #d93f63;
+  }
+  
+  .no-students-message {
+  font-size: 1rem;
+  color: #999;
+  text-align: center;
+  }
+  
